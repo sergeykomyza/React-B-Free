@@ -1,0 +1,41 @@
+.home
+	height: 950px
+	padding: 150px 0 0 0
+	background: linear-gradient(to bottom, #eaeaea 80%, #f8f9f9)
+	&__box
+		display: flex
+	&__content
+		flex-shrink: 0
+		padding: 100px 0 0 0
+	&__title
+		margin: 0 0 30px 0
+		font-size: 60px
+		font-weight: 900
+		line-height: 1.05
+	&__tagtitle
+		margin: 0 0 30px 0
+		font-size: 33px
+		font-weight: 500
+		color: #6f6f6f
+
+.slider
+	&__item
+		img 
+			width: 100%
+
+@media screen and ( max-width: 992px )
+	.home
+		height: auto
+		&__box
+			flex-direction: column-reverse
+		&__content
+			text-align: center
+		&__title
+			font-size: 36px
+		&__tagtitle
+			font-size: 25px
+		&__slider
+			width: 50%
+			margin: 0 auto
+		&__button
+			margin: 0 auto

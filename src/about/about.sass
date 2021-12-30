@@ -1,0 +1,36 @@
+.about
+	padding: 7.4rem 0 13rem 0
+	background-color: #FFF
+	&__box
+		margin: 43px 0 0 0
+	&__content
+		position: relative
+		z-index: 2
+	&__text
+		margin: 0 0 7rem 0
+		font-size: 21px
+		font-weight: 400
+		&--orange 
+			padding: 0 0 0 5px
+			color: #FFF
+			background: #ff7900
+	&__img
+		position: absolute
+		z-index: 1
+		right: 15px
+
+@media screen and ( max-width: 1200px )
+	.about
+		&__text
+		&__img
+			display: none
+
+@media screen and ( max-width: 992px )
+	.about
+		&__text
+			text-align: center
+
+@media screen and ( max-width: 565px )
+	.about
+		&__img
+			width: 320px

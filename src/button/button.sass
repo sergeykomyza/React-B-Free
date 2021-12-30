@@ -1,0 +1,39 @@
+.button
+	position: relative
+	z-index: 1
+	display: flex
+	align-items: center
+	justify-content: center
+	flex-shrink: 0
+	padding: 0.3rem 0.3rem 0.3rem 2.2rem
+	font-size: 1.5rem
+	font-weight: 900
+	color: #fff
+	text-transform: uppercase
+	background: #ff7900
+	border-radius: 15px 35px 35px 15px
+	overflow: hidden
+	&::after
+		content: ''
+		position: absolute
+		z-index: -1
+		top: 0
+		left: -1px
+		width: 0
+		height: 100%
+		background: #F66200
+		border-radius: 10px 30px 30px 10px
+		transition: width 0.5s
+	&:hover
+		color: #FFF
+	&:hover::after
+		left: 0
+		width: 100%
+		transition: width 0.5s
+	&--active::after
+		left: 0
+		width: 100%
+		transition: width 0.5s
+	img
+		width: 3.13rem
+		margin: 0 0 0 15px
