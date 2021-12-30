@@ -1,5 +1,7 @@
 # Сайт по продаже защитных масок на React (Create React App)
 
+![b-free_v3](https://user-images.githubusercontent.com/62849901/147766582-03166acd-83a4-4570-a1d0-4038e52a17db.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
